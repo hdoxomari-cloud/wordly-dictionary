@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f0ff;
+    color: #666666;
+    text-align: center;
+    padding: 30px;
+}
+h1 {
+    color: #9b7ede
+}
+form {
+    margin: 20px;
+}
+input {
+    padding: 12px;
+    border: 2px solid #b8a1e5;
+    border-radius: 8px
+}
+button {
+    padding: 12px;
+    background-color: #e8a0bf;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #9b7ede;
+}
+
+#results {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 12px;
+}
+#message {
+    color: #b15a85
+}
+#definitions {
+    text-align: left;
+}
+#saved-words {
+    list-style: none;
+    padding: 0;
+}
+
+.dark-theme {
+    background-color: #252238;
+    color: white;
+}
+.dark-theme #results {
+    background-color: #38314f;
+    color: white;
+}

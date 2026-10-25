@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordly Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1>Wordly Dictionary</h1>
+    <p>Find the meaning of any word!</p>
+
+    <form id="search-form">
+        <input type="text" id="word-input" placeholder="Enter a word...">
+        <button type="submit">Search</button>
+    </form>
+
+    <p id="message"></p>
+
+    <div id="results">
+        <h2 id="word"></h2>
+        <p id="pronunciation"></p>
+        <button id="audio-btn" hidden>Play pronunciation</button>
+        <div id="definitions"></div>
+        <div id="synonyms"></div>
+        <button id="save-btn" hidden>Save word</button>
+    </div>
+
+    <h2>Saved Words</h2>
+    <ul id="saved-words"></ul>
+
+    <button id="theme-btn" type="button">Change Theme</button>
+</body>
+</html>
